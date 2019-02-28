@@ -6,6 +6,6 @@ def divisor(n):
             table.append(i)
             table.append(n//i)
         i += 1
-    
+    table = list(set(table))
     table.sort()
     return table

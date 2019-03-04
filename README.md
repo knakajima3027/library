@@ -25,13 +25,13 @@
 
 * `kruskal.py` クラスカル法 (最小全域木を求める)  
 
-###データ構造  
+### データ構造  
 
 * `union_find.py` データ構造のUnion Find Treeを実装  
 
 * `union_find_num.py` Union Find Treeで、各集合の要素数も管理  
 
-###その他  
+### その他  
 
 * `lcs.py` 動的計画法で、2つの文字列の最長共通部分列を求める  
 

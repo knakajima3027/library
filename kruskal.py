@@ -54,10 +54,10 @@ class kruskal():
         return res
 
     def edge(self):
-        UF = UnionFind(len(V)) #頂点数でUnion Find Treeを初期化
+        UF = UnionFind(len(self.V)) #頂点数でUnion Find Treeを初期化
         res_E = []
-        for i in range(len(E)):
-            e = E[i]
+        for i in range(len(self.E)):
+            e = self.E[i]
 
             if (UF.same(e[0], e[1])) == False:
                 UF.unite(e[0], e[1])

@@ -29,7 +29,7 @@
 
 * `union_find.py` データ構造のUnion Find Treeを実装  
 
-* `union_find_num.py` Union Find Treeで、各集合の要素数も管理  
+* `union_find_size.py` Union Find Treeで、各集合の要素数も管理  
 
 ### その他  
 

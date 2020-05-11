@@ -1,40 +1,31 @@
-## 競技プログラミング自作ライブラリ  
-言語: Python3  
+![sample-algorithms](./assets/top-img.png)
+## Algorithm Library  
+In competitive programming, there are frequently used algorithms．  
+In this repository contains sample code for such algorithms. 
 
-## 置いているコード  
-### 整数論  
-* `gcd.py` 2つの数の最大公約数を求める  
+## Table of Contents
+### Number theory  
+* [Greatest common divisor](https://github.com/knakajima3027/library/blob/master/algorithms/gcd.py)
+* [Least common multiple](https://github.com/knakajima3027/library/blob/master/algorithms/lcm.py) 
 
-* `lcm.py` 2つの数の最小公倍数を求める  
+* [List of divisors](https://github.com/knakajima3027/library/blob/master/algorithms/divisor.py)
 
-* `divisor.py` ある整数の約数を列挙  
+* [is prime number](https://github.com/knakajima3027/library/blob/master/algorithms/is_prime.py)
 
-* `is_prime.py` ある整数が素数であるかを判定する  
+* [Sieve of Eratosthenes](https://github.com/knakajima3027/library/blob/master/algorithms/Eratosthenes.py)
 
-* `Eratosthenes.py` エストラステネスの篩 (素数の列挙)  
+* [Prime factorization](https://github.com/knakajima3027/library/blob/master/algorithms/prime_factor.py)
 
-* `prime_factor.py` ある整数の素因数分解
 
-* `mod.py` mod 10 ** 9 + 7の割り算の場合をメモ
 
-* `pos.py` べき乗を効率的に求める  
+### Graph theory  
+* [Floyd–Warshall algorithm](https://github.com/knakajima3027/library/blob/master/algorithms/warshall_floyd.py)
 
-* `conbination.py` 場合の数の計算  
+* [Kruskal's algorithm](https://github.com/knakajima3027/library/blob/master/algorithms/kruskal.py)  
 
-### グラフ理論  
+### Data structure  
+* [Union find tree](https://github.com/knakajima3027/library/blob/master/algorithms/union_find.py)
 
-* `warshall_floyd.py` ワーシャル-フロイド法 (全2頂点間の最短経路を算出)  
-
-* `kruskal.py` クラスカル法 (最小全域木を求める)  
-
-### データ構造  
-
-* `union_find.py` データ構造のUnion Find Treeを実装  
-
-* `union_find_size.py` Union Find Treeで、各集合の要素数も管理  
-
-### その他  
-
-* `lcs.py` 動的計画法で、2つの文字列の最長共通部分列を求める  
-
-* `bit.py` ビット列の生成 (ビット探索などに利用)  
+### Useful library in python  
+* [make bit](https://github.com/knakajima3027/library/blob/master/util-sample/bit.py)
+* [Calculate Combinations](https://github.com/knakajima3027/library/blob/master/util-sample/conbination.py) 

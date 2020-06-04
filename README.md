@@ -5,27 +5,27 @@ In this repository contains sample code for such algorithms.
 
 ## Table of Contents
 ### Number theory  
-* [Greatest common divisor](https://github.com/knakajima3027/library/blob/master/algorithms/gcd.py)
-* [Least common multiple](https://github.com/knakajima3027/library/blob/master/algorithms/lcm.py) 
+* [最大公約数](https://github.com/knakajima3027/library/blob/master/algorithms/gcd.py)
+* [最小公倍数](https://github.com/knakajima3027/library/blob/master/algorithms/lcm.py) 
 
-* [List of divisors](https://github.com/knakajima3027/library/blob/master/algorithms/divisor.py)
+* [約数の列挙](https://github.com/knakajima3027/library/blob/master/algorithms/divisor.py)
 
-* [is prime number](https://github.com/knakajima3027/library/blob/master/algorithms/is_prime.py)
+* [素数判定](https://github.com/knakajima3027/library/blob/master/algorithms/is_prime.py)
 
-* [Sieve of Eratosthenes](https://github.com/knakajima3027/library/blob/master/algorithms/Eratosthenes.py)
+* [エラトステネスの篩](https://github.com/knakajima3027/library/blob/master/algorithms/Eratosthenes.py)
 
-* [Prime factorization](https://github.com/knakajima3027/library/blob/master/algorithms/prime_factor.py)
+* [素因数分解](https://github.com/knakajima3027/library/blob/master/algorithms/prime_factor.py)
 
 
 
 ### Graph theory  
-* [Floyd–Warshall algorithm](https://github.com/knakajima3027/library/blob/master/algorithms/warshall_floyd.py)
+* [ワーシャル・フロイド法](https://github.com/knakajima3027/library/blob/master/algorithms/warshall_floyd.py)
 
-* [Kruskal's algorithm](https://github.com/knakajima3027/library/blob/master/algorithms/kruskal.py)  
+* [クラスカル法](https://github.com/knakajima3027/library/blob/master/algorithms/kruskal.py)  
 
 ### Data structure  
-* [Union find tree](https://github.com/knakajima3027/library/blob/master/algorithms/union_find.py)
+* [Union-Find木](https://github.com/knakajima3027/library/blob/master/algorithms/union_find.py)
 
 ### Useful library in python  
-* [make bit](https://github.com/knakajima3027/library/blob/master/util-sample/bit.py)
-* [Calculate Combinations](https://github.com/knakajima3027/library/blob/master/util-sample/conbination.py) 
+* [ビットの生成](https://github.com/knakajima3027/library/blob/master/util-sample/bit.py)
+* [順列・組み合わせ](https://github.com/knakajima3027/library/blob/master/util-sample/conbination.py) 

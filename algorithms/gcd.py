@@ -1,5 +1,9 @@
-#a,bの最大公約数
-def gcd(a: int, b: int) -> int:
-    while b:
-        a, b = b, a % b
-    return a
+#x,yの最大公約数 計算量: O(logn)
+def gcd(x: int, y: int) -> int:
+    while y:
+        x, y = y, x % y
+    return x
+
+
+assert gcd(6, 12) == 6
+assert gcd(67719, 17214) == 3
